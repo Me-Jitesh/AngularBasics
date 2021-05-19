@@ -1,10 +1,17 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+
+  // selector: 'app-root',   // Select by element name <app-root></app-root>
+
+  // selector: '.app-root',   // Select by class name <div class="app-root"></div>
+
+  selector: '[app-root"]',   // Select by attribute namee < div app-root></div>
+
+  template: '<h1>Hola World !! , {{title}}</h1>',     //Single & Double qoute have same use whereas back tick used to multine code
+
+  styles: ["h1{ color:orange;  text-align: center; }"]
 })
 export class AppComponent {
-  title = 'angular-basics';
+  title: String = 'By Jeetu !! ';     //    variable
 }
