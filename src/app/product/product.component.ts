@@ -9,4 +9,12 @@ export class ProductComponent {
     productName: String = "iPhone"
     productPrice: number = 90000.00
     productQnt: number = 1
+
+    meInterpolation: String = "Hola Bachcho"
+
+    ternary: String = ""
+
+    meMethod(): String {
+        return "I Am Method !! " + this.meInterpolation
+    }
 }

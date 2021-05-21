@@ -5,4 +5,5 @@
 table, th, td {
     border: 1px groove blueviolet;
     padding: 10px;
+    margin-bottom: 20px;
 }

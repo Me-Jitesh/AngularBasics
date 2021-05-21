@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
   <h3>Products Details</h3> 
   <my-product></my-product>`,     //Single & Double qoute have same use whereas back tick used to multine code
 
-  styles: ["h1{ color:orange;  text-align: center; }"]  //Applied Locally
+  styles: ["h1{ color:aquamarine;  text-align: center; }"]  //Applied Locally
 })
 export class AppComponent {
   title: String = 'By Jeetu !! ';     //    variable
