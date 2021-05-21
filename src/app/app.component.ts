@@ -8,9 +8,11 @@ import { Component } from '@angular/core';
 
   selector: '[app-root"]',   // Select by attribute namee < div app-root></div>
 
-  template: '<h1>Hola World !! , {{title}}</h1>',     //Single & Double qoute have same use whereas back tick used to multine code
+  template: `<h1>Hola World !! , {{title}}</h1><br>
+  <h3>Products Details</h3> 
+  <my-product></my-product>`,     //Single & Double qoute have same use whereas back tick used to multine code
 
-  styles: ["h1{ color:orange;  text-align: center; }"]
+  styles: ["h1{ color:orange;  text-align: center; }"]  //Applied Locally
 })
 export class AppComponent {
   title: String = 'By Jeetu !! ';     //    variable
