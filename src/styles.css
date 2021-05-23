@@ -20,5 +20,5 @@ table, th, td {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100;
-    margin-top: 50px;
+    margin-top: 60px;
 }
