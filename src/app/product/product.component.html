@@ -12,6 +12,10 @@
     </tr>
 </table>
 
+<!--        Interpolation       -->
+
+<h1>------------------------Interpolation------------------------------</h1>
+
 <h3>Sending Data Component To view(One Way)</h3>
 {{meInterpolation}}
 <br>
@@ -35,3 +39,16 @@
 <h3>Call Mehod In Interpolation</h3>
 {{meMethod()}}
 <br>
+
+<!--        Data Binding         -->
+
+<h1>------------------------Data Binding------------------------------</h1>
+
+<h3>For String</h3>
+<p [innerHtml]='meInterpolation'> </p>
+
+<h3>Data Binding(used for Non String) Vs Interpolation(used for String)</h3>
+<input type="text" [value]='meInterpolation' [disabled]='isStatus' />
+
+<h3>Another Syntax</h3>
+<input type="text" bind-value='meInterpolation' bind-disabled='isStatus' />

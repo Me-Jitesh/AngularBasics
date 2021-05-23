@@ -2,8 +2,21 @@
 
 /*  Applied Global   */
 
+body{
+    background-color: tomato;
+}
+
 table, th, td {
     border: 1px groove blueviolet;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.parent {
+    padding: 50px;
+    background-color: turquoise;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

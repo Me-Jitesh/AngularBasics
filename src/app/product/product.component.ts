@@ -14,6 +14,8 @@ export class ProductComponent {
 
     ternary: String = ""
 
+    isStatus:boolean=true
+
     meMethod(): String {
         return "I Am Method !! " + this.meInterpolation
     }
